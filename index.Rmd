@@ -15,7 +15,7 @@ description: "belum ada deskripsi"
 # Pendahuluan
 
 ## Modul apa ini?
-Modul ini merupakan panduan mahasiswa dalam mengaplikasikan teori tentang statistika dan analisis data ke dalam standar praktik di dunia usaha. Khususnya, modul ini bertujuan untuk membantu mahasiswa menggunakan R, sebuah aplikasi _open source_ yang banyak digunakan oleh analis data. Lebih lengkap tentang R dapat ditemukan di [https://www.r-project.org/](https://www.r-project.org/)
+Modul ini merupakan panduan mahasiswa dalam mengaplikasikan teori tentang statistika dan analisis data ke dalam standar praktik di dunia usaha. Khususnya, modul ini bertujuan untuk membantu mahasiswa menggunakan R, sebuah bahasa pemrograman _open source_ yang banyak digunakan oleh analis data untuk menganalisis data menggunakan statistik, dan melakukan visualisasi data. Lebih lengkap tentang R dapat ditemukan di [https://www.r-project.org/](https://www.r-project.org/)
 
 ## Kenapa R?
 
@@ -29,10 +29,10 @@ R adalah bahasa yang memang ditulis untuk digunakan dalam analisis statistik. R 
 
 Selain modul ini, ada sangat banyak sumber belajar di internet. R memiliki komunitas pengguna yang cukup luas dan beragam. Komunitas-komunitas ini tidak segan-segan berbagi dan menjawab pertanyaan anda. Beberapa permasalahan yang anda temui mungkin sudah dijawab orang lain, dan forum-forum seperti ini akan sangat membantu ketika sudah bekerja.
 
-### Gratis
-cukup jelas
+### Open Source
+R adalah _open source_, dengan kata lain, _user_ dapat menggunakan R secara cuma-cuma (iya, gratis). 
 
-## Aplikasi yang dibutuhkan
+## Alat dan bahan yang dibutuhkan
 Untuk menjalankan program-program yang ada di modul ini, anda membutuhkan sebuah komputer atau laptop, lalu anda akan memerlukan aplikasi bernama R dan Rstudio. Modul ini mengasumsikan anda menggunakan sistem operasi windows, namun melakukan instalasi di sistem operasi non-windows juga tidak kalah mudahnya. Langkah-langkah berikut ini juga dapat dengan mudah anda temukan di berbagai situs.
 
 Anda juga membutuhkan kuota internet.
@@ -46,7 +46,15 @@ Setelah R terinstall di komputer anda, silakan pergi ke [https://rstudio.com/pro
 ## Tampilan R
 Setelah anda selesai menginstall RStudio, maka anda hanya perlu membuka RStudio dari desktop anda. Anda tidak perlu lagi membuka R. Karena itu, _shortcut_ RStudio lebih penting daripada _shortcut_ R.
 
-kode yang ada di buku ini harus anda ketik di _'console'_
+RStudio memiliki tampilan utama berupa 4 jendela. Berikut adalah tampilan RStudio:
+
+```{r echo=FALSE, fig.cap="Tampilan RStudio"}
+knitr::include_graphics('tampilanR2.JPG')
+```
+
+Secara garis besar, RStudio Memiliki 4(empat) jendela, yaitu script, console, environment dan file. kode yang ada di buku ini harus anda ketik di jendela _'console'_, sementara script merupakan kumpulan kode.
+
+Untuk saat ini, mengetahui nama-nama dari keempat jendela ini sudah cukup. Bagaimana menggunakannya akan diperjelas di bab-bab berikutnya.
 
 ## update R
 R merupakan aplikasi yang cukup sering mendapatkan update. Karena itu, anda harus rajin-rajin ngecek update ketika menggunakannya. Jangan lupa juga bahwa anda akan memerlukan kuota internet untuk melakukan update.
